@@ -1,5 +1,5 @@
 1. Riset dan jelaskan materi berikut (buat file untuk menjelaskannya)
-	- if else condition
+	- if, else if, else condition
 	- switch case
 	- looping
 
