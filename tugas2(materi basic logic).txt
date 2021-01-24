@@ -1,0 +1,127 @@
+PERCABANGAN
+Percabangan atau disebut juga control flow, decision, struktur kondisi, struktur if, dsb. 
+Percabangan akan mampu membuat program menentukan tindakan sesuai dengan logika/kondisi yang diberikan.
+
+1. Percabangan if
+Percabangan if merupakan percabangan yang hanya memiliki satu blok pilihan saat kondisi bernilai benar.
+Karena percabangan if hanya akan mengerjakan ketika kondisi terpenuhi, 
+jika tidak terpenuhi maka program tidak akan menjalankan perintah apapun yang didefinisikan dalam blok if.
+
+Sintak percabangan if :
+
+if (kondisi){
+   pernyataan
+}
+
+2. Percabangan if/else
+Percabangan if/else merupakan percabangan yang memiliki dua blok pilihan.
+Pilihan pertama untuk kondisi benar, dan pilihan kedua untuk kondisi salah (else).
+Blok else memungkinkan program untuk menjalankan pernyataan alternatif jika kondisi bernilai salah (false).
+
+Sintak percabangan if/else :
+
+if (kondisi){
+   pernyataan1
+}else {
+   pernyataan2
+}
+
+3. Percabangan else/if
+Jika pada bentuk percabangan if hanya memiliki satu kondisi. 
+Pada bentuk percabangan else if mempunyai lebih dari satu kondisi.
+
+Sintak percabangan else/if :
+
+if (kondisi1){
+   pernyataan1
+}else if (kondisi2){
+   pernyataan2
+}else if (kondisi3){
+   pernyataan3
+}else {
+   pernyataan_alternatif
+}
+
+.....
+
+SWITCH CASE
+Switch case merupakan struktur pemilihan yang bekerja dengan cara membandingkan suatu nilai pada setiap case yang ada. 
+Dengan demikian akan menghasilkan banyak kemungkinan dari nilai yang di bandingkan.
+Percabangan switch/case adalah bentuk lain dari percabangan else/if.
+ 
+Sintak switch case :
+
+switch(nilai) {
+   case nilai1:
+      //Blok perintah yang dieksekusi, bila nilai1 sama dengan nilai
+      break
+   case nilai2:
+      //Blok perintah yang dieksekusi, bila nilai2 sama dengan nilai
+      break
+   case nilai3:
+      //Blok perintah yang dieksekusi, bila nilai3 sama dengan nilai
+      break
+   default
+      //Blok perintah yang dieksekusi jika semua nilai tidak sama dengan nilai pembanding
+}
+
+Setiap case nilai yang di lakukan pembanding bisa berupa numerik ataupun karakter string. 
+Blok perintah yang ada di masing-masing case akan di jalankan saat case nilai sama dengan nilai pembanding. 
+Setiap case akan diakhiri dengan break berfungsi agar program tidak mengeksekusi pernyataan selanjutnya dalam switch. 
+Di bagian akhir terdapat bagian default, bagian ini akan dijalankan jika semua case tidak memenuhi kondisi yang ada. 
+Perintah default tidak wajib, jika memang diperlukan bisa digunakan.
+
+.....
+
+PERULANGAN (LOOPING)
+Perulangan adalah pemrosesan sekumpulan data atau eksekusi kode sebanyak beberapa kali.
+
+1. Perulangan for
+Penggunaan perulangan for di peruntukan ketika sudah diketahui berapa kali jumlah perulangan yang harus dilakukan 
+berdasarkan kondisi yang ditetapkan.
+
+Sintak perulangan for :
+
+for (nilai_awal;kondisi;modifier){
+    perintah_yang_diulang;
+}
+
+Keterangan:
+- nilai_awal merupakan nilai yang ditetapkan sebagai nilai awal menjadi patokan perulangan harus dimulai dari nilai ini.
+- kondisi merupakan pendefinsian kondisi menggunakan operator relasi/pembanding.
+- modifier merupakan bagian dimana kita bisa menentukan berapa jumlah penambahan nilai (increment) atau pengurangan (decrement) dalam proses perulangan.
+
+2. Perulangan foreach
+Perulangan foreach biasanya digunakan untuk mencetak item di dalam array.
+Perulangan ini termasuk dalam perulangan counted loop, karena jumlah perulangannya akan ditentukan oleh panjang dari array.
+
+3. Perulangan repeat
+Perulangan dengen method atau fungsi repeat() termasuk dalam perulangan counted loop.
+Fungsi ini khusus digunakan untuk mengulang sebuah teks (string).
+
+4.Perulangan while
+Perulangan while pada dasarnya digunakan untuk perulangan yang belum diketahui berapa kali perulangan akan dilakukan.
+
+Sintak perulangan while :
+
+while (kondisi){
+    perintah_yang_diulang;
+}
+
+Selama kondisi bernilai benar (true) perintah dalam blok while akan terus diulang. 
+Untuk menghentikan perulangan perlu mengubah nilai agar kondisi bernilai salah (false).
+
+5. Perulangan do while
+Perulangan do while akan melakukan perulangan minimal satu kali kemudian barulah di cek kondisinya.
+
+Sintak perulangan do while :
+
+do {
+   perintah_yang_diulang
+} while (kondisi)
+
+
+
+
+
+
