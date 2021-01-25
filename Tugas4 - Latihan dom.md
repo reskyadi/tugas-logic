@@ -4,7 +4,7 @@
 
 	[A] [B] [C] [D] [E] [F] [G] [H] [I] [J] [Del]
 	[K] [L] [M] [N] [O] [P] [Q] [R] [S] [T] [Clear]
-	[U] [V] [W] [X] [Y] [Z]
+	[U] [V] [W] [X] [Y] [Z] [Space]
 
 
 2. Ketika mouse menekan alphabet button, akan menambahkan string sesuai yg di tekan
